@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="Projekti1a.css">
+  </head>
+  <body>
+    <form action="/admin/process-form.php" method="POST">
+    <p>
+
+        <p>
+             <label>Ikä:</label>
+            <br>
+            <input type="text" name="ika">
+        </p>
+</form>
+  <div class="container">
+    <label for="uname"><b>nimi</b></label>
+    <input type="text" placeholder="liita nimi" name="uname" required>
+
+    <label for="psw"><b>salasana</b></label>
+    <input type="password" placeholder="liita salasana" name="psw" required>
+
+    <button type="submit">Kirjaudu</button>
+    <label>
+  </div>
+  <BR>
+  mika on Lempi aineesi keudassa:
+  <select name="kouluaine">
+  <OPTION VALUE=>
+  <OPTION VALUE=MA>Matikka
+  <OPTION VALUE=LK>liikunta
+  <OPTION VALUE=AK>Aidinkieli
+  <OPTION VALUE=EN>Englanti
+  </select>
+  </BR>
+<p>
+  Miten viihdyt keudassa:
+<input type="radio" name="AppSource" value=1>Mahtavasti
+<input type="radio" name="AppSource" value=2>hyvin
+<input type="radio" name="AppSource" value=3>kohtalaisesti
+<input type="radio" name="AppSource" value=4>huonosti
+
+</p>
+  <p>
+    Mihin kaytat tietokonetta eniten
+<input type="checkbox" name="AppSourcePelaaminen">Pelaamiseen
+<input type="checkbox" name="AppSourcetyonteko">tyontekoon
+<input type="checkbox" name="AppSourceeditointi">editointiin
+<input type="checkbox" name="AppSourceuutiset">uutisiin
+</p>
+
+Jata palautetta meille:
+<TEXTAREA name="Comments" cols=60 rows=6></TEXTAREA>
+<input type="button" value="paina minua">
+  </body>
+</html>
